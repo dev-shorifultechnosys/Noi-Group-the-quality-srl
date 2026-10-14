@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Noi, la qualità | Prodotti selezionati</title>
+  <meta name="description" content="Esplora i prodotti selezionati di Noi, la qualità per categoria, codice e provenienza.">
+  <meta name="theme-color" content="#0b385f">
+  <link rel="stylesheet" href="assets/style.css">
+
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+</head>
+<body>
+
+  <div class="top-note" data-i18n="topNote">Catalogo 2026 · Selezione italiana · Specialità italiane autentiche</div>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="logo" href="index.html" aria-label="Noi, la qualità home">
+        <img src="assets/images/logo-noi-la-qualita-transparent.png" alt="Noi, la qualità" width="250" height="120">
+      </a>
+      <nav class="main-nav" aria-label="Navigazione principale">
+        <a href="index.html" data-i18n="navHome">Home</a>
+        <a href="products.html" data-i18n="navProducts">Prodotti</a>
+        <a href="index.html#qualita" data-i18n="navQuality">Qualità</a>
+        <a href="catalog.html" data-i18n="navCatalog">Catalogo</a>
+        <a href="index.html#territori" data-i18n="navTerritories">Territori</a>
+        <a href="index.html#doppio" data-i18n="navDoppio">Doppio Senso</a>
+        <a href="index.html#contatti" data-i18n="navContacts">Contatti</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-switch" aria-label="Language switch">
+          <button class="lang-btn" type="button" data-lang="it">IT</button>
+          <button class="lang-btn" type="button" data-lang="en">EN</button>
+        </div>
+        <a class="btn btn-primary" href="index.html#contatti" data-i18n="requestCatalog">Richiedi il catalogo →</a>
+        <button class="menu-btn" type="button" aria-label="Apri menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+<main class="products-page">
+  <section class="products-hero" aria-label="Prodotti selezionati">
+    <div class="products-hero-bg" aria-hidden="true"></div>
+    <div class="products-hero-shade" aria-hidden="true"></div>
+    <div class="container products-hero-inner">
+      <div class="products-hero-copy">
+        <div class="eyebrow light" data-i18n="productsPageEyebrow">La nostra selezione</div>
+        <h1 data-i18n="productsPageTitle">Prodotti selezionati</h1>
+        <p data-i18n="productsPageText">Esplora le specialità italiane selezionate, organizzate per categoria, codice e origine. Apri ogni scheda per vedere immagini, descrizione e provenienza.</p>
+        <div class="inline-actions">
+          <a class="btn btn-gold" href="#product-browser" data-i18n="viewAll">Vedi tutti i prodotti</a>
+          <a class="btn btn-outline light-outline" href="catalog.html" data-i18n="browseCatalog">Sfoglia il catalogo →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="product-browser">
+    <div class="container catalog-controls">
+      <div class="controls-bar">
+        <input id="catalogSearch" class="field" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="Cerca per nome, codice o categoria…">
+        <select id="catalogCategory" class="field"></select>
+        <span id="catalogCount" class="result-count">0 risultati</span>
+        <button id="resetFilters" class="btn btn-outline" type="button" data-i18n="resetFilters">Reset filtri</button>
+      </div>
+      <div>
+        <div class="eyebrow" data-i18n="quickFilterTitle">Filtra per categoria</div>
+        <div id="quickFilters" class="filter-chip-row"></div>
+      </div>
+      <div id="catalogGrid" class="catalog-grid"></div>
+    </div>
+  </section>
+</main>
+
+  <footer class="site-footer" id="contatti">
+    <div class="container footer-cta">
+      <div>
+        <div class="eyebrow light" data-i18n="footerEyebrow">Catalogo 2026</div>
+        <h3 data-i18n="footerTitle">Vuoi conoscere la selezione completa?</h3>
+      </div>
+      <div class="footer-cta-actions">
+        <a class="btn btn-gold" href="catalog.html" data-i18n="browseCatalog">Sfoglia il catalogo →</a>
+        <a class="btn btn-outline light-outline" href="mailto:info@noilaqualita.it" data-i18n="contactUsShort">Contattaci</a>
+      </div>
+    </div>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand-badge"><img src="assets/images/logo-noi-la-qualita-transparent.png" alt="Noi, la qualità" width="220" height="110"></div>
+        <p data-i18n="footerBrandText">Specialità italiane, territori e tradizione in un catalogo digitale contemporaneo.</p>
+        <div class="footer-socials" aria-label="Social media"><a href="#" aria-label="Facebook">Fb</a><a href="#" aria-label="Instagram">Ig</a><a href="#" aria-label="LinkedIn">In</a><a href="#" aria-label="YouTube">Yt</a></div>
+      </div>
+      <div><h4 data-i18n="footerExplore">Esplora</h4><a href="products.html" data-i18n="navProducts">Prodotti</a><a href="index.html#territori" data-i18n="navTerritories">Territori</a><a href="catalog.html" data-i18n="navCatalog">Catalogo</a></div>
+      <div><h4 data-i18n="footerCompany">Azienda</h4><a href="index.html#qualita" data-i18n="navQuality">Qualità</a><a href="index.html#doppio" data-i18n="navDoppio">Doppio Senso</a><a href="index.html#contatti" data-i18n="navContacts">Contatti</a></div>
+      <div><h4>Gruppo Noi, la qualità srl</h4><p>Viale C. Sabatini, 161<br>00144 Rome - Italy</p><p>Tel. +39 06 66995093<br>+39 3791413514<br>06 66993421</p><p>info@noilaqualita.it<br>info@golosaqualita.it</p><p>www.noilaqualita.it</p></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span data-year></span> Noi, la qualità</span></div>
+  </footer>
+  <button class="floating-live" type="button" aria-label="Apri chat live" title="Messaggio live" aria-expanded="false"><span class="live-icon">💬</span><span class="live-dot"></span></button>
+  <section class="live-chat-panel" aria-label="Assistenza live" aria-hidden="true">
+    <header class="live-chat-header"><div class="live-chat-brand"><img src="assets/images/logo-noi-la-qualita-transparent.png" alt="Noi, la qualità" width="120" height="58"><div><strong>Assistenza live</strong><span>Online</span></div></div><button class="live-chat-close" type="button" aria-label="Chiudi chat">×</button></header>
+    <div class="live-chat-messages" aria-live="polite"><div class="chat-message chat-ai">Ciao! Sono l’assistente virtuale di Noi, la qualità. Posso aiutarti con prodotti, catalogo, formati, territori e contatti.</div></div>
+    <form class="live-chat-form"><input class="live-chat-input" type="text" autocomplete="off" placeholder="Scrivi un messaggio…" aria-label="Messaggio"><button class="live-chat-send" type="submit" aria-label="Invia">→</button></form>
+    <div class="live-chat-note">L’assistente AI risponde ai primi 3 messaggi; poi la conversazione viene passata al team.</div>
+  </section>
+
+<script src="assets/data.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
